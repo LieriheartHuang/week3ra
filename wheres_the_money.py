@@ -18,7 +18,15 @@ d=int(input('What are your weekly grocery/food expenses?'))
 e=int(input('How much do you spend on travel annually?'))
       
       if a<=15000:
+            f=0.1
+      elif a<=75000:
+            f=0.2
+      elif a<=200000:
+            f=0.25
+      else:
+            f=0.3
       
+      g=a-12*b-12*c-52*d-e-f*a
       
       
       
@@ -34,5 +42,9 @@ print('|         bills | $  '+12*c+' |   9.6% | #########')
 print('|          food | $  '+52*d+' |  20.8% | ####################')
 print('|        travel | $  '+e+' |   5.0% | #####')
 print('|           tax | $  '+f*a+' |  20.0% | ####################')
-print('|         extra | $  '+a-12*b-12*c-52*d-e-f*a+' |  20.6% | ####################')
-print('------------------------------------------------------------------
+print('|         extra | $  '+g+' |  20.6% | ####################')
+print('------------------------------------------------------------------')
+      if g<=0
+            print('>>> WARNING: DEFICIT <<<')
+      if a>75000
+            print('>>> TAX LIMIT REACHED <<<')
