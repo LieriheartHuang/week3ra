@@ -17,6 +17,10 @@ d=int(input('What are your weekly grocery/food expenses?'))
 
 e=int(input('How much do you spend on travel annually?'))
       
+      if a<=15000:
+      
+      
+      
       
       
       
@@ -25,10 +29,10 @@ e=int(input('How much do you spend on travel annually?'))
 print('------------------------------------------------------------------')
 print('See the financial breakdown below, based on a salary of $'+a)
 print('------------------------------------------------------------------')
-print('| mortgage/rent | $  12,000.00 |  24.0% | ########################')
-print('|         bills | $   4,800.00 |   9.6% | #########')
-print('|          food | $  10,400.00 |  20.8% | ####################')
-print('|        travel | $   2,500.00 |   5.0% | #####')
-print('|           tax | $  10,000.00 |  20.0% | ####################')
-print('|         extra | $  10,300.00 |  20.6% | ####################')
+print('| mortgage/rent | $  '+12*b+' |  24.0% | ########################')
+print('|         bills | $  '+12*c+' |   9.6% | #########')
+print('|          food | $  '+52*d+' |  20.8% | ####################')
+print('|        travel | $  '+e+' |   5.0% | #####')
+print('|           tax | $  '+f*a+' |  20.0% | ####################')
+print('|         extra | $  '+a-12*b-12*c-52*d-e-f*a+' |  20.6% | ####################')
 print('------------------------------------------------------------------
