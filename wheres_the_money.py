@@ -45,7 +45,7 @@ print('|        travel | $  '+e+' |   5.0% | '+'#')
 print('|           tax | $  '+f*a+' |  20.0% | '+'#')
 print('|         extra | $  '+g+' |  20.6% | '+'#')
 print('------------------------------------------------------------------')
-      if g<=0
-            print('>>> WARNING: DEFICIT <<<')
-      if a>75000
-            print('>>> TAX LIMIT REACHED <<<')
+if g<=0
+    print('>>> WARNING: DEFICIT <<<')
+if a>75000
+    print('>>> TAX LIMIT REACHED <<<')
