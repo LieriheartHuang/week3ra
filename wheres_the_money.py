@@ -8,14 +8,14 @@
 print('-----------------------------')
 print('----- WHERE\'S THE MONEY -----')
 print('-----------------------------')
-a=int(input('What is your annual salary?'))
+a=int(input('What is your annual salary?\n'))
 
-b=int(input('How much is your monthly mortgage or rent?'))
-c=int(input('What do you spend on bills monthly?'))
+b=int(input('How much is your monthly mortgage or rent?\n'))
+c=int(input('What do you spend on bills monthly?\n'))
 
-d=int(input('What are your weekly grocery/food expenses?'))
+d=int(input('What are your weekly grocery/food expenses?\n'))
 
-e=int(input('How much do you spend on travel annually?'))
+e=int(input('How much do you spend on travel annually?\n'))
       
       if a<=15000:
             f=0.1
@@ -37,7 +37,7 @@ e=int(input('How much do you spend on travel annually?'))
 print('------------------------------------------------------------------')
 print('See the financial breakdown below, based on a salary of $'+a)
 print('------------------------------------------------------------------')
-print('| mortgage/rent | $  '+12*b+' |  24.0% | '+'#')
+print('| mortgage/rent | $  '+string_to_print_out = format(12*b5,.1f)+ |string_to_print_out = format(12*b/a.1f') | '+'#')
 print('|         bills | $  '+12*c+' |   9.6% | '+'#')
 print('|          food | $  '+52*d+' |  20.8% | '+'#')
 print('|        travel | $  '+e+' |   5.0% | '+'#')
