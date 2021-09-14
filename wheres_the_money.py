@@ -6,7 +6,7 @@
 ###
 
 print('-----------------------------')
-print('----- WHERE'S THE MONEY -----')
+print('----- WHERE\'S THE MONEY -----')
 print('-----------------------------')
 a=int(input('What is your annual salary?'))
 
