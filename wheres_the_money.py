@@ -38,7 +38,7 @@ h=12*b
 print('------------------------------------------------------------------')
 print('See the financial breakdown below, based on a salary of $'+a)
 print('------------------------------------------------------------------')
-print('| mortgage/rent | $  '+string_to_print_out = format(h,5,.1f)+ '|'string_to_print_out = format(12*b/a,3,.1f') | '+'#')
+print('| mortgage/rent | $  '+string_to_print_out = format(h,'5,.1f')+ '|'string_to_print_out = format(12*b/a,'3,.1f')+' | '+'#')
 print('|         bills | $  '+12*c+' |   9.6% | '+'#')
 print('|          food | $  '+52*d+' |  20.8% | '+'#')
 print('|        travel | $  '+e+' |   5.0% | '+'#')
