@@ -9,31 +9,31 @@ print('-----------------------------')
 print('----- WHERE\'S THE MONEY -----')
 print('-----------------------------')
 a=int(input('What is your annual salary?\n'))
-if isinstance(a,int)==false:
+if (not isinstance(a,int)):
     print('Must enter positive integer for saraly.')
-elif a<=0:
+if a<=0:
     print('Must enter positive integer for saraly.')
 
 b=int(input('How much is your monthly mortgage or rent?\n'))
-if isinstance(b,int)==false:
+if (not isinstance(b,int)):
     print('Must enter positive integer for rent.')
-elif b<=0:
+if b<=0:
     print('Must enter positive integer for rent.)
 c=int(input('What do you spend on bills monthly?\n'))
-if isinstance(c,int)==false:
+if (not isinstance(c,int)):
     print('Must enter positive integer for bills.')
-elif c<=0:
+if c<=0:
     print('Must enter positive integer for bills.')
 d=int(input('What are your weekly grocery/food expenses?\n'))
-if isinstance(d,int)==false:
+if (not isinstance(d,int)):
     print('Must enter positive integer for food.')
-elif d<=0:
+if d<=0:
     print('Must enter positive integer for food.')
 
 e=int(input('How much do you spend on travel annually?\n'))
-if isinstance(e,int)==false:
+if (not isinstance(e,int)):
     print('Must enter positive integer for travel annually.')
-elif e<=0:
+if e<=0:
     print('Must enter positive integer for travel annually.')
 print(' ')
 if a<=15000:
