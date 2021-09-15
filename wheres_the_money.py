@@ -16,7 +16,7 @@ c=int(input('What do you spend on bills monthly?\n'))
 d=int(input('What are your weekly grocery/food expenses?\n'))
 
 e=int(input('How much do you spend on travel annually?\n'))
-      
+print(' ')
 if a<=15000:
     f=0.1
 elif a<=75000:
@@ -35,12 +35,12 @@ h=12*b
 print('------------------------------------------------------------------')
 print('See the financial breakdown below, based on a salary of $'+str(a))
 print('------------------------------------------------------------------')
-print('| mortgage/rent | $  '+"{:>10d}".format(h)+ '|'+"{:3.1%}".format(h/a)+' | '+int(h/a)*'#')
-print('|         bills | $  '+"{:>10d}".format(12*c)+ '|'+"{:3.1%}".format(12*c/a)+' | '+int(12*c/a)*'#')
-print('|          food | $  '+"{:>10d}".format(52*d)+ '|'+"{:3.1%}".format(52*d/a)+' | '+int(52*d/a)*'#')
-print('|        travel | $  '+"{:>10d}".format(e)+ '|'+"{:3.1%}".format(e/a)+' | '+int(e/a)*'#')
-print('|           tax | $  '+"{:>10d}".format(int(f*a))+ '|'+"{:3.1%}".format(f)+' | '+int(f)*'#')
-print('|         extra | $  '+"{:>10d}".format(int(g))+ '|'+"{:3.1%}".format(g/a)+' | '+int(g/a)*'#')
+print('| mortgage/rent | $  ',"{:>10d}".format(h),'|',"{:3.1%}".format(h/a),'|'+int(h/a)*'#')
+print('|         bills | $  '+"{:>10d}".format(12*c),'|',"{:3.1%}".format(12*c/a)+' | '+int(12*c/a)*'#')
+print('|          food | $  '+"{:>10d}".format(52*d),'|',"{:3.1%}".format(52*d/a)+' | '+int(52*d/a)*'#')
+print('|        travel | $  '+"{:>10d}".format(e),'|',"{:3.1%}".format(e/a)+' | '+int(e/a)*'#')
+print('|           tax | $  '+"{:>10d}".format(int(f*a)),'|',"{:3.1%}".format(f)+' | '+int(f)*'#')
+print('|         extra | $  '+"{:>10d}".format(int(g)),'|',"{:3.1%}".format(g/a)+' | '+int(g/a)*'#')
 print('------------------------------------------------------------------')
 if g<=0:
     print('>>> WARNING: DEFICIT <<<')
