@@ -18,7 +18,7 @@ b=int(input('How much is your monthly mortgage or rent?\n'))
 if (not isinstance(b,int)):
     print('Must enter positive integer for rent.')
 if b<=0:
-    print('Must enter positive integer for rent.)
+    print('Must enter positive integer for rent.')
 c=int(input('What do you spend on bills monthly?\n'))
 if (not isinstance(c,int)):
     print('Must enter positive integer for bills.')
