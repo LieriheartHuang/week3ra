@@ -8,42 +8,42 @@
 print('-----------------------------')
 print('----- WHERE\'S THE MONEY -----')
 print('-----------------------------')
-a=int(input('What is your annual salary?\n'))
+saraly=int(input('What is your annual salary?\n'))
 
-b=int(input('How much is your monthly mortgage or rent?\n'))
-c=int(input('What do you spend on bills monthly?\n'))
+rent=int(input('How much is your monthly mortgage or rent?\n'))
+bill=int(input('What do you spend on bills monthly?\n'))
 
-d=int(input('What are your weekly grocery/food expenses?\n'))
+food=int(input('What are your weekly grocery/food expenses?\n'))
 
-e=int(input('How much do you spend on travel annually?\n'))
+travel=int(input('How much do you spend on travel annually?\n'))
 print(' ')
-if a<=15000:
+if saraly<=15000:
     f=0.1
-elif a<=75000:
+elif saraly<=75000:
     f=0.2
-elif a<=200000:
+elif saraly<=200000:
     f=0.25
 else:
     f=0.3
 
-g=a-12*b-12*c-52*d-e-f*a
-h=12*b
+g=saraly-12*rent-12*bill-52*food-travel-f*saraly
+h=12*rent
       
       
       
       
 print('------------------------------------------------------------------')
-print('See the financial breakdown below, based on a salary of $'+str(a))
+print('See the financial breakdown below, based on a salary of $'+str(saraly))
 print('------------------------------------------------------------------')
-print('| mortgage/rent | $  '+"{:>7d}".format(h),'|',"{:3.1%}".format(h/a),'|'+int(h/a)*'#')
-print('|         bills | $  '+"{:>7d}".format(12*c),'|',"{:3.1%}".format(12*c/a)+' | '+int(12*c/a)*'#')
-print('|          food | $  '+"{:>7d}".format(52*d),'|',"{:3.1%}".format(52*d/a)+' | '+int(52*d/a)*'#')
-print('|        travel | $  '+"{:>7d}".format(e),'|',"{:3.1%}".format(e/a)+' | '+int(e/a)*'#')
-print('|           tax | $  '+"{:>7d}".format(int(f*a)),'|',"{:3.1%}".format(f)+' | '+int(f)*'#')
-print('|         extra | $  '+"{:>7d}".format(int(g)),'|',"{:3.1%}".format(g/a)+' | '+int(g/a)*'#')
+print('| mortgage/rent | $  '+"{:>7d}".format(h),'|',"{:3.1%}".format(h/saraly),'|'+int(h/saraly)*'#')
+print('|         bills | $  '+"{:>7d}".format(12*bill),'|',"{:3.1%}".format(12*bill/saraly)+' | '+int(12*bill/saraly)*'#')
+print('|          food | $  '+"{:>7d}".format(52*food),'|',"{:3.1%}".format(52*food/a)+' | '+int(52*food/a)*'#')
+print('|        travel | $  '+"{:>7d}".format(travel),'|',"{:3.1%}".format(travel/saraly)+' | '+int(travel/saraly)*'#')
+print('|           tax | $  '+"{:>7d}".format(int(f*saraly)),'|',"{:3.1%}".format(f)+' | '+int(f)*'#')
+print('|         extra | $  '+"{:>7d}".format(int(g)),'|',"{:3.1%}".format(g/saraly)+' | '+int(g/saraly)*'#')
 print('------------------------------------------------------------------')
 if g<=0:
     print('>>> WARNING: DEFICIT <<<')
-if a>75000:
+if saraly>75000:
     print('>>> TAX LIMIT REACHED <<<')
 
