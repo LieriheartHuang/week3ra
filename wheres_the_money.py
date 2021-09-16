@@ -40,7 +40,7 @@ if a<15000:
     f=0.1
 elif a<75000:
     f=0.2
-elif a<200000:
+elif a<2000000:
     f=0.25
 else:
     f=0.3
@@ -63,5 +63,5 @@ print('|         extra | $  '"{:9,.2f}".format(g),'|',"{:6.1%}".format(g/a),'|',
 print('------------------------------------------'+int(max(100*h/a,12*100*c/a,52*100*d/a,100*e/a,100*f,100*g/a))*'-')
 if g<=0:
     print('>>> WARNING: DEFICIT <<<')
-if a>75000:
+if a*f>75000:
     print('>>> TAX LIMIT REACHED <<<')
