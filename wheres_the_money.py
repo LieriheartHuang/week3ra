@@ -63,5 +63,5 @@ print('|         extra | $ '"{:10,.2f}".format(g),'|',"{:6.1%}".format(g/a),'|',
 print('------------------------------------------'+int(max(100*h/a,12*100*c/a,52*100*d/a,100*e/a,100*f,100*g/a))*'-')
 if g<=0:
     print('>>> WARNING: DEFICIT <<<')
-if a*f>75000:
+if a*f>=75000:
     print('>>> TAX LIMIT REACHED <<<')
