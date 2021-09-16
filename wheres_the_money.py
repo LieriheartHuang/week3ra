@@ -36,11 +36,11 @@ if (not isinstance(e,int)):
 if e<=0:
     print('Must enter positive integer for travel annually.')
 print(' ')
-if a<=15000:
+if a<15000:
     f=0.1
-elif a<=75000:
+elif a<75000:
     f=0.2
-elif a<=200000:
+elif a<200000:
     f=0.25
 else:
     f=0.3
