@@ -10,7 +10,7 @@ def count(s: str):
     return not now
 
 
-if count(input("Enter String:\n")):
+if count(input("Enter string:\n")):
     print("Parentheses balanced")
 else:
     print("Parentheses unbalanced")
