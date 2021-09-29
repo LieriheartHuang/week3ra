@@ -1,8 +1,6 @@
-cnt = 0
-tot = 0
-def average_numbers(x):
-    global cnt
-    global tot
-    cnt = cnt + x
-    tot = tot + 1
-    return round((1.0 * cnt / tot), 2)
+def average_numbers(n):
+    sum = 0
+    for i in range(0, n):
+        x = input("Number:\n")
+        sum += int(x)
+    print("Average = {}".format(round(1.0 * sum / n, 2)))
