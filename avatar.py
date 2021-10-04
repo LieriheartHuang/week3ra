@@ -41,7 +41,7 @@ def face(eye_character, long_hair):
 
 def body(arm_style, torso_length):
     torso_length = int(torso_length)
-    start = 0 # (torso_length - 1) // 2 - 1
+    start = 0  # (torso_length - 1) // 2 - 1
     while start > 0:
         print("      |-X-|      ")
         start -= 1
@@ -72,13 +72,13 @@ def shoe(shoe_look):
 def custom():
     # create custom avatar
     print("Answer the following questions to create a custom avatar")
-    hat_style = input("Hat style ?\n")
-    eye_character = input("Character for eyes ?\n")
-    long_hair = input("Long hair (True/False) ?\n")
-    arm_style = input("Arm style ?\n")
-    torso_length = input("Torso length ?\n")
-    leg_length = input("Leg length (1-4) ?\n")
-    shoe_look = input("Shoe look ?\n")
+    hat_style = input("Hat style ?")
+    eye_character = input("Character for eyes ?")
+    long_hair = input("Long hair (True/False) ?")
+    arm_style = input("Arm style ?")
+    torso_length = input("Torso length ?")
+    leg_length = input("Leg length (1-4) ?")
+    shoe_look = input("Shoe look ?")
     hat(hat_style)
     face(eye_character, long_hair)
     body(arm_style, torso_length)
@@ -112,8 +112,8 @@ def Chris():
 
 def main():
     # entry point
-	print("----- AVATAR -----")
-    command = input("Select an Avatar or create your own:\n")
+    print("----- AVATAR -----")
+    command = input("Select an Avatar or create your own:")
     while True:
         if command == "custom":
             custom()
@@ -135,3 +135,4 @@ def main():
 
 
 main()
+
