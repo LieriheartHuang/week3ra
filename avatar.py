@@ -130,7 +130,6 @@ def main():
             print(
                 "must be one of 'custom' or 'exit' or 'Jeff' or 'Jane' or 'Chris'"
             )
-            continue
         break
 
 
