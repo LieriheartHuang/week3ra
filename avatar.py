@@ -48,7 +48,7 @@ def body(arm_style, torso_length):
         torso_length -= 1
     print(f" 0{arm_style*4}|---|{arm_style*4}0")
     torso_length -= 1
-    while torso_length > 0:
+    while torso_length >= 0:
         print("      |-X-|      ")
         torso_length -= 1
     print("      HHHHH      ")
