@@ -114,7 +114,7 @@ def Chris():
 def main():
     # entry point
     print("----- AVATAR -----")
-    command = input("Select an Avatar or create your own:")
+    command = input("Select an Avatar or create your own:\n")
     while True:
         if command == "custom":
             custom()
