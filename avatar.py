@@ -27,7 +27,7 @@ def hat(hat_style):
 
 def face(eye_character, long_hair):
     if (long_hair == "True"):
-        print("   \"|\"\"\" \"\"\"|\"    ")
+        print("   \"|\"\"\"\"\"\"\"|\"    ")
     elif (long_hair == "False"):
         print("    |'''''''|   ")
     else:
@@ -91,7 +91,8 @@ def Jeff():
     print(' ')
     hat("both")
     face("0", "False")
-    body("=", 6)
+    print('      |-X-|')
+    body("=", 5)
     leg(2)
     shoe("#HHH#")
 
@@ -100,7 +101,7 @@ def Jane():
     print(' ')
     hat("right")
     face("*", "True")
-    body("T", 3)
+    body("T", 2)
     leg(3)
     shoe("<|||>")
 
