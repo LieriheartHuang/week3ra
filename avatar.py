@@ -92,7 +92,7 @@ def Jeff():
     hat("both")
     face("0", "False")
     print('      |-X-|')
-    body("=", 5)
+    body("=", 4)
     leg(2)
     shoe("#HHH#")
 
