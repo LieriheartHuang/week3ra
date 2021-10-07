@@ -104,9 +104,11 @@ def Jane():
 
 
 def Chris():
+    print(' ')
     hat("front")
+    body("W",1)
     face("U", "False")
-    body("W", 4)
+    body("W", 2)
     leg(4)
     shoe("<>-<>")
 
