@@ -131,11 +131,6 @@ def main():
             Jane()
         elif command == "Chris":
             Chris()
-        else:
-            print(f"wrong command: {command}")
-            print(
-                "must be one of 'custom' or 'exit' or 'Jeff' or 'Jane' or 'Chris'"
-            )
         break
 
 
