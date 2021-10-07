@@ -106,7 +106,7 @@ def Jane():
 def Chris():
     print(' ')
     hat("front")
-    body("W",1)
+    print('      |-X-|')
     face("U", "False")
     body("W", 2)
     leg(4)
