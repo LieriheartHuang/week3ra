@@ -88,6 +88,7 @@ def custom():
 
 
 def Jeff():
+    print(' ')
     hat("both")
     face("0", "False")
     body("=", 6)
@@ -96,6 +97,7 @@ def Jeff():
 
 
 def Jane():
+    print(' ')
     hat("right")
     face("*", "True")
     body("T", 3)
@@ -106,8 +108,8 @@ def Jane():
 def Chris():
     print(' ')
     hat("front")
-    print('      |-X-|')
     face("U", "False")
+    print('      |-X-|')
     body("W", 2)
     leg(4)
     shoe("<>-<>")
