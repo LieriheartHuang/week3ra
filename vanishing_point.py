@@ -1,3 +1,12 @@
+### 
+### Author: wenjunhuang
+### Class: CSc 110
+### Description: in program
+###
+
+
+
+
 from graphics import graphics
 from random import randint
 
